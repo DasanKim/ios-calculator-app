@@ -238,7 +238,8 @@
     ```
 
 </details>
-    
+
+<br>
 
 ## 📚 참고 링크
 
@@ -248,6 +249,8 @@
 - [🍎 Apple Docs: xctassertthrowserror](https://developer.apple.com/documentation/xctest/1500795-xctassertthrowserror)
 - [📄 WebPage: LinkedList](https://www.kodeco.com/books/data-structures-algorithms-in-swift/v3.0/chapters/6-linked-list)
 
+ <br>
+  
 ## 💭 회고
 ### 👏 칭찬할 부분
 - 규칙적인 생활을 한 것
