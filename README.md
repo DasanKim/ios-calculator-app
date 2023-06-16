@@ -1,4 +1,4 @@
-# 계산기 II
+# 🧮 계산기 II
 
 ## 🍀 소개
 `Dasan`과 `Zion`이 만든 계산기입니다. 사용자로부터 UI 입력을 받아 계산기 동작을 수행합니다.
@@ -37,18 +37,18 @@
 ## 👀 시각화된 프로젝트 구조
 
 <p>
-<img width="" src="https://github.com/DasanKim/ios-calculator-app/blob/calculator2-Step2/Calculate2ClassDiagram.jpg?raw=true">
+<img width="800" src="https://github.com/DasanKim/ios-calculator-app/blob/calculator2-Step2/Calculate2ClassDiagram.jpg?raw=true">
 </p>
 <br>
 
 ## 💻 실행 화면 
 |입력을 받은 수 계산화면|소수점 입력을 받은 수 계산화면|
 |:--:|:--:|
-|<img src="https://hackmd.io/_uploads/ryrYSutvn.gif" width="400">|<img src="https://hackmd.io/_uploads/H1jZLdFv3.gif" width="400">|
+|<img src="https://hackmd.io/_uploads/ryrYSutvn.gif" width="380">|<img src="https://hackmd.io/_uploads/H1jZLdFv3.gif" width="380">|
 
 |이전 결과값에 이어서 계산하는 화면|AllClear로 결과값을 전부 지우는 실행화면|
 |:--:|:--:|
-|<img src="https://hackmd.io/_uploads/BJQ7UdYv3.gif" width="400">|<img src="https://hackmd.io/_uploads/Hy6XUOKwh.gif" width="400">|
+|<img src="https://hackmd.io/_uploads/BJQ7UdYv3.gif" width="380">|<img src="https://hackmd.io/_uploads/Hy6XUOKwh.gif" width="380">|
 
 </br>
 
