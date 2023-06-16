@@ -55,7 +55,7 @@ final class CalculatorViewController: UIViewController {
             return
         }
         
-        if isResult == true { resetExpression() }
+        if isResult == true { resetFormula() }
         
         addStackView()
         operatorLabel.text = sender.currentTitle
@@ -94,7 +94,7 @@ final class CalculatorViewController: UIViewController {
 // MARK: - Private Method
 extension CalculatorViewController {
     private func resetCalculator() {
-        resetExpression()
+        resetFormula()
         resetOperandLabel()
         resetOperatorLabel()
         removeArithmeticStackViews()
@@ -110,11 +110,9 @@ extension CalculatorViewController {
         operatorLabel.text = ""
     }
     
-    private func resetExpression() {
+    private func resetFormula() {
         inputFormula = ""
     }
-    
-    
     
     private func calculate() {
         var parsedExpression = ExpressionParser<CalculatorItemQueue, CalculatorItemQueue>.parser(from: inputFormula.withoutDecimalPoint)
