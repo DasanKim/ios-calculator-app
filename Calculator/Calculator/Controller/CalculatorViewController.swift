@@ -40,7 +40,7 @@ final class CalculatorViewController: UIViewController {
               var currentOperand = operandLabel.text?.withoutDecimalPoint else { return }
         
         if isResult {
-            setFormulaAppendOrReset()
+            setFormulaContinueOrReset()
             currentOperand = "\(NumberConstraints.initialNumber)"
         }
         
@@ -129,7 +129,7 @@ extension CalculatorViewController {
         inputFormula += operandString ?? ""
     }
     
-    private func setFormulaAppendOrReset() {
+    private func setFormulaContinueOrReset() {
         if operatorLabel.text != "" {
             setUpHaveResultOption(false)
         } else {
